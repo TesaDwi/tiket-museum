@@ -1,0 +1,178 @@
+body{
+    overflow-x: hidden;
+}
+#p1{
+    font-family: Cinzel Decorative;
+    font-size: 40pt;
+    text-align: left;
+    margin: 10px 10px -5px 80px;
+}
+
+#p2{
+    font-family:Averia Serif Libre;
+    font-size: 50pt;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 0px 20px -5px 0px;
+}
+.navbar ul{
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px 0px 0px 400px;
+    overflow: hidden;
+    font-family: Yusei Magic;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    color:#645e81;   
+}
+
+.navbar li{
+    float: right;
+}
+
+#box1{
+
+    font-family: Frank Ruhl Libre;
+    width: 350px;
+    height: 50px;
+    font-size: 32px;
+    margin: 40px 0px 0px 35px;
+}
+
+#box2{
+    
+    width: 350px;
+    height: 50px;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(94, 91, 91);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 8px 0px 0px 40px;
+}
+
+#box3{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(94, 91, 91);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: -20px 0px 0px 40px;
+}
+#box4{
+
+    font-family: Frank Ruhl Libre;
+    width: 350px;
+    height: 50px;
+    font-size: 32px;
+    margin: 20px 0px 0px 35px;
+}
+
+#box5{
+    font-family: Frank Ruhl Libre;
+    color: rgb(60, 56, 56);
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    margin: 10px 0px 0px 35px;
+}
+#box6{
+    font-family: Frank Ruhl Libre;
+    color: rgb(60, 56, 56);
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px 0px 0px 35px;
+}
+#box7{
+    font-family: Frank Ruhl Libre;
+    color: rgb(71, 62, 62);
+    font-weight: bold;
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    margin: 35px 0px 0px 35px;
+}
+#box8{
+    float: right;
+    font-family: Frank Ruhl Libre;
+    color: black;
+    width: 600px;
+    height: 50px;
+    font-size: 32px;
+    margin: -40% -70px 0px 0px;
+    
+}
+#box9{
+    float: right;
+    font-family: Frank Ruhl Libre;
+    color: rgb(71, 62, 62);
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    margin: -35% -70px 0px 0px;
+    
+}
+.vl {
+    border-left: 1px solid rgb(156, 151, 151);
+    height: 470px;
+    float: right;
+    margin: -35% 45% 0px 0px;
+}
+.navbaar ul{
+    font-size: 23px;
+    list-style-type: none;
+    padding: 0px;
+    margin:10px 30px 30px 35px;
+    width: 150px;
+    overflow: hidden;
+    font-family: Alegreya Sans SC;
+}
+.navbaar a{
+    color: white;
+    background-color: #393646;
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+    text-align: center;
+}
+
+.navbaar a:hover{
+    color:black;  
+    background-color: gray; 
+}
+
+#box10{
+    float: right;
+    font-family: Frank Ruhl Libre;
+    color: black;
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    margin: -30% -70px 0px 0px;
+    
+}
+#submit{
+    padding: 12px;
+    width: 150px;
+    font-family:  Alegreya Sans SC;
+    color: white;
+    background-color: #393646;
+    font-size: 25px;
+}
+#name{
+    width:70%;
+    height: 30px;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}

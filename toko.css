@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&family=Abril+Fatface&family=Alatsi&family=Alegreya+Sans+SC:wght@300;700&family=Averia+Libre:wght@300&family=Boogaloo&family=Castoro+Titling&family=Cinzel+Decorative:wght@700&family=Cinzel:wght@700&family=Cormorant+Garamond:wght@500;600&family=IBM+Plex+Serif&family=Livvic:wght@500&family=Marcellus+SC&family=Ovo&family=Patrick+Hand+SC&family=Playfair:wght@700&family=Rammetto+One&family=Rozha+One&family=Rubik&family=Tenor+Sans&family=Yusei+Magic&display=swap");ort
+*{
+    box-shadow: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    font-size: 1.7rem;
+    font-family: Yusei Magic;
+}
+
+#p1{
+    font-family: Cinzel Decorative;
+    font-size: 40pt;
+    text-align: left;
+    margin: 20px 10px -5px 80px;
+}
+
+#p2{
+    font-family:Averia Serif Libre;
+    font-size: 50pt;
+    text-align: justify;
+    text-indent: 30px;
+    margin:0px 20px -10px 0px;
+}
+
+.navbar ul{
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px 0px 0px 400px;
+    overflow: hidden;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    color: #645e81;
+}
+
+.navbar li{
+    float: right;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 4rem;
+}
+
+.all-products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.product{
+    overflow: hidden;
+    background: wheat;
+    color: #21201e;
+    text-align: center;
+    width: 250px;
+    height: 390px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2rem;
+    margin: 1.5rem;
+}
+
+.product:hover img{
+    scale: 1.1;
+}
+.product:hover{
+    box-shadow: 5px 15px 15px #393646;
+    border: 2px;
+}
+
+.product img{
+    height: 90px;
+    width: 125%;
+    height: 90%;
+    margin: -30px 15px 15px 15px;
+    transition: all 0.3s;
+}
+.product a:link, .product a:visited{
+    color: #ececec;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #393646;
+    padding: 1.2rem 3rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    transition: all 0.2s;
+}
+.product a:hover{
+    transform: scale(1.1);
+}
+
+.product-title {
+    margin: 5px 0px -5px 0px;
+}
+.product-price {
+    margin: 5px 0px -10px 0px;
+}

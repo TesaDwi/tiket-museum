@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="login.css">
+        <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&family=Abril+Fatface&family=Alatsi&family=Alegreya+SC:wght@700&family=Alegreya+Sans+SC:wght@300;500;700&family=Averia+Libre:wght@300&family=Boogaloo&family=Castoro+Titling&family=Cinzel+Decorative:wght@700&family=Cinzel:wght@700&family=Cormorant+Garamond:wght@500;600&family=Cormorant+Infant:wght@600&family=Frank+Ruhl+Libre&family=IBM+Plex+Serif&family=Livvic:wght@500&family=Marcellus+SC&family=Nunito+Sans:wght@700&family=Ovo&family=PT+Serif:wght@700&family=Patrick+Hand+SC&family=Phudu&family=Playfair:wght@700&family=Rammetto+One&family=Rozha+One&family=Rubik&family=Staatliches&family=Tenor+Sans&family=Ysabeau+Office:wght@400;500;600;700&family=Yusei+Magic&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-box">
+                <form action="" name="Formfill" onsubmit="return validation()">
+                    <h2>PRODUCT</h2>
+                    <p id="result"></p>
+                    <div class="input-box">
+                        <i class='bx bxs-user'></i>
+                        <input type="text" name="Username" placeholder="Username">
+                    </div>
+                    <div class="input-box">
+                        <i class='bx bxs-phone'></i>
+                        <input type="text" name="NomorTelepon" placeholder="Nomor Telepon">
+                    </div>
+                    <div class="input-box">
+                        <i class='bx bxl-product-hunt'></i>
+                        <input type="text" name="Produk" placeholder="Produk">
+                    </div>
+                    <div class="input-box">
+                        <i class='bx bxs-lock-alt'></i>
+                        <input type="number" name="JumlahProduk" placeholder="Jumlah Produk">
+                    </div>
+                    <div class="button">
+                        <input type="submit" class="btn" onclick="validation()" value="Submit">
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="popup" id="popup">
+                <ion-icon name="checkmark-circle-outline"></ion-icon>
+                <h2>Thank you!</h2>
+                <p>Your data has been saved. Thanks!</p>
+                <a href="toko.html"><button onclick="CloseSlide()">OK</button></a>
+            </div>
+        </div>
+        <script src="pesanan.js"></script>
+    </body>
+</html>
